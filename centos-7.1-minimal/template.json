@@ -18,7 +18,6 @@
             "scripts/base.sh",
             "scripts/vagrant.sh",
             "scripts/vmware.sh",
-            "scripts/zerodisk.sh",
             "scripts/cleanup.sh",
             "scripts/zerodisk.sh"
           ]
@@ -43,15 +42,15 @@
     {
       "type": "virtualbox-iso",
       "boot_command": [
-        "<tab> text ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/ks.cfg net.ifnames=0 <enter><wait>"
+        "<up><tab> text ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/ks.cfg net.ifnames=0 <enter><wait>"
       ],
       "boot_wait": "10s",
-      "disk_size": 10240,
+      "disk_size": 20480,
       "guest_os_type": "RedHat_64",
       "http_directory": "http",
       "iso_checksum": "7c1e34e95c991175290d704dbdcc6531774cbecb",
       "iso_checksum_type": "sha1",
-      "iso_url": "file:///Users/gfjohnson/Documents/CentOS-7-x86_64-Minimal-1503-01.iso",
+      "iso_url": "http://mirrors.arsc.edu/centos/7.1.1503/isos/x86_64/CentOS-7-x86_64-Minimal-1503-01.iso",
       "ssh_username": "vagrant",
       "ssh_password": "vagrant",
       "ssh_port": 22,
@@ -70,12 +69,12 @@
         "<tab> text ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/ks.cfg<enter><wait>"
       ],
       "boot_wait": "10s",
-      "disk_size": 10240,
+      "disk_size": 20480,
       "guest_os_type": "centos-64",
       "http_directory": "http",
       "iso_checksum": "7c1e34e95c991175290d704dbdcc6531774cbecb",
       "iso_checksum_type": "sha1",
-      "iso_url": "http://mirrors.kernel.org/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1503-01.iso",
+      "iso_url": "http://mirrors.arsc.edu/centos/7.1.1503/isos/x86_64/CentOS-7-x86_64-Minimal-1503-01.iso",
       "ssh_username": "vagrant",
       "ssh_password": "vagrant",
       "ssh_port": 22,
