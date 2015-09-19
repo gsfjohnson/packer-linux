@@ -37,7 +37,7 @@
       "artifact_type": "vagrant.box",
       "metadata": {
         "provider": "vmware_desktop",
-        "version": "0.2.3",
+        "version": "0.2.4",
         "description": "CentOS 7.1.1503-01 minimal; FirewallD--; SELinux++; VirtualBox 5.0.2; America/Anchorage TZ; EPEL++"
       }
     },
@@ -48,7 +48,7 @@
       "artifact_type": "vagrant.box",
       "metadata": {
         "provider": "virtualbox",
-        "version": "0.2.3",
+        "version": "0.2.4",
         "description": "CentOS 7.1.1503-01 minimal; FirewallD--; SELinux++; VirtualBox 5.0.2; America/Anchorage TZ; EPEL++"
       }
     }]
