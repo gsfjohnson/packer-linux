@@ -26,7 +26,7 @@
     }
   ],
   "post-processors": [
-    {
+    [{
       "type": "vagrant",
       "keep_input_artifact": false
     },
@@ -37,7 +37,8 @@
       "artifact_type": "vagrant.box",
       "metadata": {
         "provider": "vmware_desktop",
-        "version": "0.0.1"
+        "version": "0.2.3",
+        "description": "CentOS 7.1.1503-01 minimal; FirewallD--; SELinux++; VirtualBox 5.0.2; America/Anchorage TZ; EPEL++"
       }
     },
     {
@@ -47,9 +48,10 @@
       "artifact_type": "vagrant.box",
       "metadata": {
         "provider": "virtualbox",
-        "version": "0.4.1"
+        "version": "0.2.3",
+        "description": "CentOS 7.1.1503-01 minimal; FirewallD--; SELinux++; VirtualBox 5.0.2; America/Anchorage TZ; EPEL++"
       }
-    }
+    }]
   ],
   "builders": [
     {
