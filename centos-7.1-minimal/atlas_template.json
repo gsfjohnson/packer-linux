@@ -1,4 +1,8 @@
 {
+  "variables": {
+    "atlas_username": "{{env `ATLAS_USERNAME`}}",
+    "atlas_name":     "centos71-m"
+  },
   "provisioners": [
     {
       "type": "shell",
@@ -33,23 +37,23 @@
     {
       "type": "atlas",
       "only": ["vmware-iso"],
-      "artifact": "gsfjohnson/centos71-m",
+      "artifact": "{{user `atlas_username`}}/{{user `atlas_name`}}",
       "artifact_type": "vagrant.box",
       "metadata": {
         "provider": "vmware_desktop",
-        "version": "0.2.4",
-        "description": "CentOS 7.1.1503-01 minimal; FirewallD--; SELinux++; VirtualBox 5.0.2; America/Anchorage TZ; EPEL++"
+        "version": "0.0.1",
+        "description": "CentOS 7.1.1503-01\n - yum updated\n - Minimal !\n - FirewallD--\n - SELinux++\n - VirtualBox 5.0.2\n - America/Anchorage TZ\n - EPEL++\n\nPacker files at https://github.com/gsfjohnson/packer-linux/tree/develop/centos-7.1-minimal"
       }
     },
     {
       "type": "atlas",
       "only": ["virtualbox-iso"],
-      "artifact": "gsfjohnson/centos71-m",
+      "artifact": "{{user `atlas_username`}}/{{user `atlas_name`}}",
       "artifact_type": "vagrant.box",
       "metadata": {
         "provider": "virtualbox",
-        "version": "0.2.4",
-        "description": "CentOS 7.1.1503-01 minimal; FirewallD--; SELinux++; VirtualBox 5.0.2; America/Anchorage TZ; EPEL++"
+        "version": "0.0.1",
+        "description": "CentOS 7.1.1503-01\n - yum updated\n - Minimal !\n - FirewallD--\n - SELinux++\n - VirtualBox 5.0.2\n - America/Anchorage TZ\n - EPEL++\n\nPacker files at https://github.com/gsfjohnson/packer-linux/tree/develop/centos-7.1-minimal"
       }
     }]
   ],
