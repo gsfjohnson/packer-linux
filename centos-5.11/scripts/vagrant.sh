@@ -1,4 +1,7 @@
 #!/bin/sh
+
+sed -i s:localhost.localdomain:centos511: /etc/sysconfig/network
+
 set -e
 
 mkdir -p /home/vagrant/.ssh
