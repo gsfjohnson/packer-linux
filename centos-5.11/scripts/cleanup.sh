@@ -1,6 +1,7 @@
 #!/bin/sh
 
-yum -y remove kernel-headers kernel-devel gcc
+yum -y erase bluez-gnome bluez-libs gpm irda-utils cups-libs cpp wireless-tools system-config-securitylevel-tui
+yum -y erase $(rpm -qa | grep kernel | grep -v `uname -r`)
 yum -y clean all
 rm -rf *.iso *.iso.?
 rm -rf /tmp/*
