@@ -41,7 +41,7 @@
       "artifact_type": "vagrant.box",
       "metadata": {
         "provider": "vmware_desktop",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "description": "CentOS 7.1.1503-01\n - yum updated\n - Minimal !\n - FirewallD--\n - SELinux++\n - VirtualBox 5.0.2\n - America/Anchorage TZ\n - EPEL++\n\nPacker files at https://github.com/gsfjohnson/packer-linux/tree/develop/centos-7.1"
       }
     },
@@ -52,7 +52,7 @@
       "artifact_type": "vagrant.box",
       "metadata": {
         "provider": "virtualbox",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "description": "CentOS 7.1.1503-01\n - yum updated\n - Minimal !\n - FirewallD--\n - SELinux++\n - VirtualBox 5.0.2\n - America/Anchorage TZ\n - EPEL++\n\nPacker files at https://github.com/gsfjohnson/packer-linux/tree/develop/centos-7.1"
       }
     }]

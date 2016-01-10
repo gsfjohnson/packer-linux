@@ -41,8 +41,8 @@
       "artifact_type": "vagrant.box",
       "metadata": {
         "provider": "vmware_desktop",
-        "version": "0.0.3",
-        "description": "CentOS 6.7 / Notes:\n - yum updated\n - Minimal !\n - FirewallD--\n - SELinux++\n - VirtualBox 5.0.2\n - America/Anchorage TZ\n - EPEL++\n\nPacker files at https://github.com/gsfjohnson/packer-linux/tree/develop/centos-6.7"
+        "version": "0.0.4",
+        "description": "CentOS 6.7 / Notes:\n - yum updated\n - Minimal !\n - iptables--\n - SELinux++\n - VirtualBox 5.0.10\n - America/Anchorage TZ\n - EPEL++\n - add home:gsfjohson OpenSUSE yum.repo\n\nPacker files at https://github.com/gsfjohnson/packer-linux/tree/develop/centos-6.7"
       }
     },
     {
@@ -52,8 +52,8 @@
       "artifact_type": "vagrant.box",
       "metadata": {
         "provider": "virtualbox",
-        "version": "0.0.3",
-        "description": "CentOS 6.7 / Notes:\n - yum updated\n - Minimal !\n - FirewallD--\n - SELinux++\n - VirtualBox 5.0.2\n - America/Anchorage TZ\n - EPEL++\n\nPacker files at https://github.com/gsfjohnson/packer-linux/tree/develop/centos-6.7"
+        "version": "0.0.4",
+        "description": "CentOS 6.7 / Notes:\n - yum updated\n - Minimal !\n - iptables--\n - SELinux++\n - VirtualBox 5.0.10\n - America/Anchorage TZ\n - EPEL++\n - add home:gsfjohson OpenSUSE yum.repo\n\nPacker files at https://github.com/gsfjohnson/packer-linux/tree/develop/centos-6.7"
       }
     }]
   ],
